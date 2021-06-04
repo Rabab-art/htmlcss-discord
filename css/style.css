@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.container{
+    max-width: 1000px;
+    margin:0 auto;
+    line-height: 80px; 
+}
+.col{
+    float:left
+}
+
+.col.w-20{
+    width: 20%;
+}
+
+.col.w-60{
+    width: 60%;
+}
+
+/* Barra con nav e logo */
+
+header{
+    background-color: rgba(49, 97, 224);
+    height: 80px;
+   clear: left;
+       
+}
+
+#logo{
+    vertical-align: middle;
+}
+
+.bar-menu li{
+    display: inline-block;    
+}
+
+.bar-menu, li a{
+    margin-left: 10px;
+    margin-right:10px ;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.sing-in{
+    text-decoration: none;
+    color:black;
+    font-size: 15px;
+    border:1px solid white;
+    border-radius: 30px;
+    background-color: white;
+    padding: 5px;
+}
+
+.jumbo-header{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px;
+}
+
+.box-text{
+    color: white;
+    width: 55%;
+    text-align: center;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    font-size: 50px;
+}
+p{
+    font-size: 20px;
+    line-height:30px;
+}
+
+.box-text, li{
+display: inline-block;
+}
+
+.buttom-white{
+    background-color: white;
+    color: black;    
+}
+
+#arrow{
+    margin-right: 5px;
+    font-size: 20px;
+}
+
+.buttom-black{  
+    background-color: black;
+    color:white;
+}   
+
+.box-text, ul a{
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-content{
+    
+}
+
+.frog{
+    height: 300px;  
+    
+}
+
+img{
+    width: 100%;
+}
+
+.col-second-section{
+    float:left;
+    width: 50%;
+    
+}
+
+.col-text{
+    padding: 20px;
+}
