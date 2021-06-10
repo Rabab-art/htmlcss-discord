@@ -134,15 +134,14 @@ display: inline-block;
 
  /* box testo img  */
     
-.m-box{
-    max-width: 1200px;
-    padding: 120px;
+.main-container{
+    max-height: 100%;
     
 }
 
 .white{
     margin-top: 100px;   
-    margin-bottom: 200px;  
+    margin-bottom: 100px;  
 }
 
 img{
@@ -182,12 +181,40 @@ img{
 
 .container-tecno{
     text-align: center;
+    padding-left:150px;
+    padding-right: 150px;
+    padding-top: 150px;
+    padding-bottom: 0;
 }
 
 .img-tecno{
-    
+ width: 80%;
+ margin: 0 auto;
+ 
 }
 
 .container-tecno h2{
-    margin margin-top: 50px;
+    margin margin-top: 30px;
+}
+
+.download h4{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.download{
+    text-align: center;
+}
+.stars{
+    margin: 0 auto;
+    width: 40%; 
+    
+}
+
+.bottom-download{
+    border: 1px solid rgb(54, 105, 245);
+    padding: 20px;
+    border-radius: 30px;
+    background-color:rgb(54, 105, 245) ;
+    color: white;
+    text-decoration: none;
 }
