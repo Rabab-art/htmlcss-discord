@@ -70,6 +70,8 @@ header{
     padding: 5px;
 }
 
+/* container jumbo */
+
 .jumbo-header{
     background-image: url(../img/jumbo.png);
     background-size: cover;
@@ -126,21 +128,21 @@ display: inline-block;
 
 /* Main */
 .main{
-    position: relative;
-    top: 0;
-    left: 0;
     margin: 0 auto;
-    max-width: 1000px;
 }
-.main-content{
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+
+
+ /* box testo img  */
+    
+.m-box{
+    max-width: 1200px;
+    padding: 120px;
+    
 }
-.frog{
-    height: 800px;   
-    margin-bottom: 20px;
+
+.white{
+    margin-top: 100px;   
+    margin-bottom: 200px;  
 }
 
 img{
@@ -149,13 +151,43 @@ img{
 
 .col-second-section{
     float: left;
-    width: 50%;    
+    width: 50%;  
+    max-width: 1000px;  
 }
 
-.col-text{
+.white .col-text{
     padding: 10px;
+    margin-left: 100px;
+    max-width: 40%;
+}
+
+.white img{
+    padding-left: 50px;
+}
+
+.magic .col-text{
+    padding: 10px;
+    margin-left: 100px;
+    max-width: 40%;
 }
 .magic{
+    background-color:lightgray;
+    max-width: 1200px;
+}
+
+.tecno-box{   
+    background-color: lightgrey;
+    margin: 0 auto;
+}
+
+.container-tecno{
+    text-align: center;
+}
+
+.img-tecno{
     
 }
 
+.container-tecno h2{
+    margin margin-top: 50px;
+}
